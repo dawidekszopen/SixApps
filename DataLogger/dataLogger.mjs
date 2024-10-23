@@ -21,10 +21,6 @@ async function main() {
         const nazwisko = await askQuestion("Jak masz na nazwisko?\n")
         const lat = await askQuestion("Ile masz lat?\n")
 
-        console.log(imie)
-        console.log(nazwisko)
-        console.log(lat)
-
         const user = {
             name: imie,
             lastName: nazwisko,
